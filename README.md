@@ -5,7 +5,7 @@ Home: https://github.com/fullonic/brotli-asgi
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/brotli-asgi-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/brotli-asgi-feedstock/blob/main/LICENSE.txt)
 
 Summary: A compression AGSI middleware using brotli
 
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15510&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/brotli-asgi-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15510&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/brotli-asgi-feedstock?branchName=main">
       </a>
     </td>
   </tr>
@@ -117,5 +117,5 @@ Feedstock Maintainers
 =====================
 
 * [@dcfidalgo](https://github.com/dcfidalgo/)
-* [@fullonic](https://github.com/fullonic)
+* [@fullonic](https://github.com/fullonic/)
 
