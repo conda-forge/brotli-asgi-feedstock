@@ -117,4 +117,5 @@ Feedstock Maintainers
 =====================
 
 * [@dcfidalgo](https://github.com/dcfidalgo/)
+* [@fullonic](https://github.com/fullonic)
 
