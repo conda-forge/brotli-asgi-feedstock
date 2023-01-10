@@ -1,5 +1,5 @@
 {% set name = "brotli-asgi" %}
-{% set version = "1.2.0" %}
+{% set version = "1.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9ed91e2c9007c23dbab8ff220ad6b721ddc550a15509617a9c83c60b989dc9c0
+  sha256: 5e7160a3a86f22659e9d978829f46615914cdd6c7fd04054f4050a2ec78da79c
 
 build:
   number: 0
