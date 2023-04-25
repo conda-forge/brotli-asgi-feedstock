@@ -16,14 +16,14 @@ build:
 
 requirements:
   host:
-    - brotli-python >=1.0.7
+    - brotli-python >=1.0.9
     - pip
-    - python >=3.6
-    - starlette >=0.13.4
+    - python >=3.7
+    - starlette >=0.25.0
   run:
-    - brotli-python >=1.0.7
-    - python >=3.6
-    - starlette >=0.13.4
+    - brotli-python >=1.0.9
+    - python >=3.7
+    - starlette >=0.25.0
 
 test:
   imports:
