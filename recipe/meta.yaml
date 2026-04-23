@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: e2d6eca4b97af19716af05bbe0d4d79cffb0b0947100c188da9ed089f5b7bc2f
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -18,11 +18,11 @@ requirements:
   host:
     - brotli-python >=1.0.9
     - pip
-    - python >=3.7
+    - python {{ python_min }}
     - starlette >=0.25.0
   run:
     - brotli-python >=1.0.9
-    - python >=3.7
+    - python >={{ python_min }}
     - starlette >=0.25.0
 
 test:
@@ -32,6 +32,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/fullonic/brotli-asgi
